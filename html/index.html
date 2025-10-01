@@ -14,18 +14,29 @@
 <body>
   <main class="main_container">
     <div class="container_logo">
-      <h1 class="welcome_text">Welcome.<br>
-        Start your journey <br>now with our <br>management <br> system!</h1>
+      <h1 class="welcome_text">Welcome.<br>Start your journey<br>now with our<br>management<br>system!</h1>
     </div>
     <div class="container_login">
       <h3 class="create_account_header">Create an Account</h3>
-      <label class="label_email" for="email">Email</label>
-      <input class="input_email" type="email" name="email" placeholder="Enter your email">
-      <label class="label_password" for="password">Password</label>
-      <input class="input_password" type="password" name="password" placeholder="Enter your password">
-      <a href="#" class="btn_link"><button class="create_account_button" type="submit">Create account</button></a>
-      <a href="#" class="btn_link"><button class="google_button">Continue with Google</button></a>
-      <p class="log_in">Already have an account? <a href="#"><span class="detail_log_in">Log in</span></a></p>
+      <div class="container_input">
+        <label class="label_email" for="email">Email</label>
+        <input class="input_email" type="email" name="email" placeholder="Enter your email">
+      </div>
+      <div class="container_input">
+        <label class="label_password" for="password">Password</label>
+        <input class="input_password" type="password" name="password" placeholder="Enter your password">
+      </div>
+      <div class="container_button">
+        <button class="create_account_button" type="submit">Create account</button>
+        <button class="google_button">
+          <img class="google_logo" src="../img/google_logo.svg" alt="">Continue with Google
+        </button>
+        <p class="log_in">Already have an account?
+          <a href="#"><span class="detail_log_in">Log in</span>
+          </a>
+        </p>
+      </div>
+
     </div>
   </main>
 </body>
